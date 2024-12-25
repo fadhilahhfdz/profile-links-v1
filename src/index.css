@@ -1,3 +1,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.list-sosmed {
+  @apply relative flex items-center justify-between w-full px-1 hover:px-6 py-2 hover:text-white border-2 border-b-4 rounded-md overflow-hidden;
+}
+
+.instagram {
+  @apply border-pink-800;
+}
+
+.linkedin {
+  @apply border-blue-800;
+}
+
+.github {
+  @apply border-black;
+}
+
+.hover-sosmed {
+  @apply absolute inset-0 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500;
+}
+
+.hover-instagram {
+  @apply bg-pink-500;
+}
+
+.hover-linkedin {
+    @apply bg-blue-500
+}
+
+.hover-github {
+    @apply bg-gray-700
+}
+
+.hover-text {
+    @apply group-hover:text-white flex items-center gap-1 group-hover:py-1
+}
+
+.text-instagram {
+    @apply text-pink-500
+}
+
+.text-linkedin {
+    @apply text-blue-500
+}
+
+.text-github {
+    @apply text-gray-700
+}
+
+.icon-color {
+    @apply p-2 rounded-full text-white group-hover:hidden
+}
+
+.icon-instagram {
+    @apply bg-pink-500
+}
+
+.icon-linkedin {
+    @apply bg-blue-500
+}
+
+.icon-github {
+    @apply bg-gray-700
+}
