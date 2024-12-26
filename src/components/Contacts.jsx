@@ -28,7 +28,7 @@ const Contacts = () => {
           href={kontak.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="relative group flex items-center justify-between w-full px-1 hover:px-6 py-2 hover:text-white border-2 border-b-4 border-purple-800 rounded-md overflow-hidden"
+          className="relative group flex items-center justify-between w-full px-1 hover:px-6 py-2 hover:text-white border-2 border-b-4 border-purple-800 rounded-md overflow-hidden shadow-lg"
         >
           <div className="flex items-center gap-2 p-1">
             <span className="absolute inset-0 bg-purple-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></span>

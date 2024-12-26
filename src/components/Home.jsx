@@ -41,7 +41,7 @@ const Home = () => {
         <div className="flex justify-end">
           <button
             onClick={toggleDarkMode}
-            className="bg-cyan-700 dark:bg-gray-800 text-white dark:text-gray-400 p-2 rounded-md"
+            className="bg-cyan-700 dark:bg-gray-800 text-white dark:text-gray-400 p-1 rounded-md"
           >
             {darkMode ? (
               <CiLight className="w-7 h-7" />
