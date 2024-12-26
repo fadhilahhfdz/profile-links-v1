@@ -1,4 +1,4 @@
-import { FaArrowRight, FaInstagram } from "react-icons/fa";
+import { FaArrowRight, FaInstagram, FaTelegram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
 const Contacts = () => {
@@ -12,6 +12,11 @@ const Contacts = () => {
       name: "DM Instagram",
       url: "https://www.instagram.com/fadhilah.dev/",
       icon: <FaInstagram />,
+    },
+    {
+      name: "Telegram",
+      url: "https://t.me/fadhilahhfdz",
+      icon: <FaTelegram />,
     },
   ];
 

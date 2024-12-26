@@ -4,13 +4,13 @@ import { LuBriefcaseBusiness, LuCoffee } from "react-icons/lu";
 const Links = () => {
   const LinkTree = [
     {
-      name: "Personal Website",
-      url: "",
+      name: "Portfolio Website",
+      url: "https://fadhilahhfdz.github.io/portfolio-v1/",
       icon: <LuBriefcaseBusiness />,
     },
     {
       name: "Buy Me a Coffee",
-      url: "",
+      url: "https://teer.id/fadhilah.dev",
       icon: <LuCoffee />,
     },
   ];
