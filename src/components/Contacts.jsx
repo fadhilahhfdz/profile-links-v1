@@ -31,7 +31,7 @@ const Contacts = () => {
             <span className="absolute left-4 transform -translate-x-12 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 z-10">
               <FaArrowRight />
             </span>
-            <div className="text-purple-500 group-hover:text-white flex items-center gap-1 group-hover:py-1">
+            <div className="text-purple-500 group-hover:text-white flex items-center gap-1.5 group-hover:py-1">
               <span className="bg-purple-700 p-2 rounded-full text-white group-hover:hidden">
                 {kontak.icon}
               </span>
