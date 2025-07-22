@@ -7,6 +7,8 @@ import { useEffect, useRef, useState } from "react";
 import Typed from "typed.js";
 
 const Home = () => {
+
+  // DarkMode
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleDarkMode = () => {

@@ -5,7 +5,7 @@ const Links = () => {
   const LinkTree = [
     {
       name: "Portfolio Website",
-      url: "https://fadhilahhfdz.github.io/portfolio-v1/",
+      url: "https://fadhilahhfdz-portfoliov2.vercel.app/",
       icon: <LuBriefcaseBusiness />,
     },
     {
